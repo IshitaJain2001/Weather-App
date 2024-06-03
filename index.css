@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    height: 50px;
+    width: 100vw;
+    background-color: rgb(0, 157, 255);
+    font-size: 30px;
+    padding: 5px;
+}
+
+.info{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+ 
+    font-size: 35px;
+    margin-top: 50px;
+    margin-left: 350px;
+}
+button{
+    font-size:30px ;
+}
+input{
+    width: 380px;
+    font-size: 28px;
+    padding-left: 20px;
+}
+
+.cards{
+    width: 50%;
+    height: 350px;
+    background-color: rgba(0, 0, 0, 0.271);
+    margin-left: 300px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+    font-size: 30px;
+}
+.card1{
+    height: 80%;
+    width: 40%;
+    border:1px solid black;
+    border-radius: 5px;
+
+}
+.para1{
+    transform: translate(15px,80px);
+}
+.para2{
+    
+    transform: translate(15px,110px);
+}
+.card2{
+    height: 80%;
+    width: 40%;
+    border:1px solid black;
+    border-radius: 5px;
+   
+}
+
+.data{
+    transform: translate(185px,40px);
+    font-size: 33px;
+}
+
+.data1{
+    transform: translate(185px,68px);
+    font-size: 33px; 
+}
